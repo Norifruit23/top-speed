@@ -1,0 +1,40 @@
+.topbanner
+{
+    display: flex;
+    justify-content: end;
+    gap:24px;
+}
+.navbar
+{
+    overflow: hidden;
+}
+.dropbutton
+{
+    font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; 
+  margin: 0;  
+}
+.drpbutton1
+{
+    float:left;
+    overflow: hidden;
+}
+.kennelcontent
+{
+    display: none;
+    position: absolute;
+    color:black;
+    padding:12px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.drpbutton1:hover.kennelcontent 
+{
+    display: block;
+}
